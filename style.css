@@ -1,6 +1,8 @@
+
+
 body {
-  background-color: #EBEBEB;
-  color: #7D7D7D;
+  background-color: #DAEAF6;
+  color: #124E96;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -14,7 +16,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #DB5658;
+  color: #FF008E;
   font-weight: 700;
 }
 
@@ -24,11 +26,11 @@ p {
 
 a {
   text-decoration: none;
-  color: rgb(200, 200, 200);
+  color: #0D8ABC;
 }
 
 a:hover {
-  color: #DB5658;
+  color: #FF008E;
 }
 
 /* custom design */
@@ -79,7 +81,7 @@ a:hover {
 .img-circle {
   border-radius: 50%;
   border: solid;
-  border-color: rgb(200, 200, 200);
+  border-color: #0D8ABC;
 }
 
 .list-inline {
@@ -93,7 +95,7 @@ a:hover {
 }
 
 .btn-red {
-  background-color: #DB5658;
+  background-color: #FF008E;
   padding: 10px 15px;
   border-radius: 7px;
   font-weight: bolder;
@@ -101,6 +103,6 @@ a:hover {
 }
 
 .btn-red:hover {
-  background-color: #C4181F;
+  background-color: #C0178E;
   color: white;
 }
