@@ -1,0 +1,106 @@
+body {
+  background-color: #EBEBEB;
+  color: #7D7D7D;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1 {
+  color: #DB5658;
+  font-weight: 700;
+}
+
+p {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+a:hover {
+  color: #DB5658;
+}
+
+/* custom design */
+.container {
+  width: 700px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.card-white a {
+  font-size: 16px;
+}
+
+.card-white table img {
+  width: 90%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: solid;
+  border-color: rgb(200, 200, 200);
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline;
+  margin: 30px;
+}
+
+.btn-red {
+  background-color: #DB5658;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-weight: bolder;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #C4181F;
+  color: white;
+}
